@@ -2,7 +2,7 @@
 
 Adaptive_ML-SCFEM is a MATLAB toolbox for computing and investigating adaptive stochastic collocation finite element approximations for elliptic PDEs with random inputs.<br>
 
-The code in this repository is associated with the following two papers:
+The codes in this repository are associated with the following two papers:
 
 <ol type="1">
   <li>
