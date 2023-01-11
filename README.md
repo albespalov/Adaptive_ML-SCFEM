@@ -38,6 +38,9 @@ On a Windows machine, run the script-file<br>
 <TT>install_adaptive_scfem.m</TT><br>
 before running the above main drivers for the first time.
 
+The diary files included in this repository were generated using MATLAB R2021a
+running under Windows 10 Enterprise x64 Version 10.0.19042.
+
 The test runs reproducing the numerical results in [1, Section 5] are saved
 in the following diary files:<br>
 <TT>SCtest_sl_tp1.txt</TT><br>
