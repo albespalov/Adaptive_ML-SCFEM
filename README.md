@@ -32,7 +32,7 @@ The driver for generating adaptive <i>multilevel</i> SC-FEM approximations is<br
 <TT>multilevelSC.m</TT>
 
 To run the software, download and unpack the file<br>
-<TT>adaptiv_ml-scfem.zip</TT><br>
+<TT>adaptive_ml-scfem.zip</TT><br>
 The default implementation is for a Unix architecture.
 On a Windows machine, run the script-file<br>
 <TT>install_adaptive_scfem.m</TT><br>
