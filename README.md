@@ -58,7 +58,7 @@ in the following diary files:<br>
 The T-IFISS* driver for the SG comparison run is<br>
 <TT>stoch_adapt_testproblem</TT><br>
 The associated diary file is<br>
-<TT>SGtest5.1.txt</TT><br>
+<TT>SGtest_tp1.txt</TT><br>
 *Stochastic T-IFISS can be downloaded from
 https://github.com/albespalov/Stochastic_T-IFISS
 
