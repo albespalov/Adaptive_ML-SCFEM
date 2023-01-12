@@ -1,0 +1,720 @@
+singlelevelSC
+
+ Numerical solution of reference stochastic diffusion problem.
+ Choose specific example:
+   1. Square domain (0,1)^2, affine random coefficient (Eigel expansion), constant source
+   2. L-shaped domain, exponential random coefficient (with analytic KL-expansion), constant source
+   3. Square domain (-4,4)^2, constant coefficient, random one-peak source
+   4. Square domain (0,1)^2, quadratic random coefficient (with Eigel expansion), constant source
+   5. Square domain (0,1)^2, exponential random coefficient (with Eigel expansion), constant source
+   6. L-shaped domain, quadratic random coefficient (with analytic KL-expansion), constant source
+   7. L-shaped domain, affine random coefficient (Eigel expansion), constant source
+   8. Square domain (0,1)^2, cookie problem (9 round inclusions), constant source
+   9. Square domain (0,1)^2, cookie problem (4 square inclusions), discontinuous source
+  10. Square domain (0,1)^2, affine random coefficient (Bachmayr expansion), constant source
+ : 3
+        1 file(s) copied. 
+        1 file(s) copied. 
+        1 file(s) copied. 
+        1 file(s) copied. 
+        1 file(s) copied. 
+
+For this test problem, the dimension of parametric space is fixed as 2
+Distribution of random variable is uniform
+
+Piecewise linear (P1) finite element approximation
+
+Error estimation: linear/quadratic bubble functions 1/2? (default 1) : 
+Estimator type:
+   1. hierarchical estimator (elementwise residual problems)
+   2. hierarchical estimator (fully assembled system for residual problem)
+   3. 2-level estimator
+(default 1) : 
+Marking strategy: maximum or equilibration 1/2? (default 2) : 
+Threshold parameter (default 0.3) : 
+
+choose type of collocation nodes
+     1.  Leja 
+     2.  CC
+default is CC nodes : 
+Threshold parameter for marking indices (default 0.3) : 
+set the error tolerance (default is 1e-1) : 
+set the number of adaptive steps (default is 40) : 
+Grid parameter: 2 for underlying 8x4 grid (default is 3 for 16x8) : 5
+
+
+Iteration 0 
+   spatial error estimate is 7.9182e-01  vs  8.2504e-01 (spatial indicator)
+parametric error estimate is 2.0002e+00  vs  3.8519e+00 (parametric indicator)
+overall estimate from indicators is 4.6770e+00
+   overall direct error estimate is 2.7921e+00
+
+
+Iteration 1 
+   spatial error indicator is 8.2504e-01 
+parametric error indicator is 3.8519e+00 
+Parametric refinement ... new indices added 
+     2     1
+
+   spatial error estimate is 6.4290e-01  vs  1.0547e+00 (spatial indicator)
+parametric error estimate is 2.2513e+00  vs  4.2188e+00 (parametric indicator)
+overall estimate from indicators is 5.2736e+00
+   overall direct error estimate is 2.8942e+00
+
+
+Iteration 2 
+   spatial error indicator is 1.0547e+00 
+parametric error indicator is 4.2188e+00 
+Parametric refinement ... new indices added 
+     3     1
+
+   spatial error estimate is 7.5409e-01  vs  1.6122e+00 (spatial indicator)
+parametric error estimate is 2.1020e+00  vs  4.3547e+00 (parametric indicator)
+overall estimate from indicators is 5.9669e+00
+   overall direct error estimate is 2.8561e+00
+
+
+Iteration 3 
+   spatial error indicator is 1.6122e+00 
+parametric error indicator is 4.3547e+00 
+Parametric refinement ... new indices added 
+     4     1
+
+   spatial error estimate is 8.9450e-01  vs  2.6814e+00 (spatial indicator)
+parametric error estimate is 1.4406e+00  vs  3.4096e+00 (parametric indicator)
+overall estimate from indicators is 6.0910e+00
+   overall direct error estimate is 2.3351e+00
+
+
+Iteration 4 
+   spatial error indicator is 2.6814e+00 
+parametric error indicator is 3.4096e+00 
+Parametric refinement ... new indices added 
+     1     2
+
+   spatial error estimate is 1.0485e+00  vs  3.3453e+00 (spatial indicator)
+parametric error estimate is 1.2759e+00  vs  4.6017e+00 (parametric indicator)
+overall estimate from indicators is 7.9469e+00
+   overall direct error estimate is 2.3244e+00
+
+
+Iteration 5 
+   spatial error indicator is 3.3453e+00 
+parametric error indicator is 4.6017e+00 
+Parametric refinement ... new indices added 
+     2     2
+
+   spatial error estimate is 9.8330e-01  vs  3.5138e+00 (spatial indicator)
+parametric error estimate is 1.4389e+00  vs  4.8685e+00 (parametric indicator)
+overall estimate from indicators is 8.3823e+00
+   overall direct error estimate is 2.4222e+00
+
+
+Iteration 6 
+   spatial error indicator is 3.5138e+00 
+parametric error indicator is 4.8685e+00 
+Parametric refinement ... new indices added 
+     3     2
+
+   spatial error estimate is 9.7424e-01  vs  3.6962e+00 (spatial indicator)
+parametric error estimate is 1.3855e+00  vs  4.9653e+00 (parametric indicator)
+overall estimate from indicators is 8.6615e+00
+   overall direct error estimate is 2.3597e+00
+
+
+Iteration 7 
+   spatial error indicator is 3.6962e+00 
+parametric error indicator is 4.9653e+00 
+Parametric refinement ... new indices added 
+     4     2
+
+redundant sparse grid solutions ..
+   spatial error estimate is 8.1114e-01  vs  3.9164e+00 (spatial indicator)
+parametric error estimate is 1.0499e+00  vs  2.6255e+00 (parametric indicator)
+overall estimate from indicators is 6.5420e+00
+   overall direct error estimate is 1.8610e+00
+
+
+Iteration 8 
+   spatial error indicator is 3.9164e+00 
+parametric error indicator is 2.6255e+00 
+Spatial refinement...
+original number of elements is 2048
+     new number of elements is 2234
+
+redundant sparse grid solutions ..
+   spatial error estimate is 6.0288e-01  vs  3.2184e+00 (spatial indicator)
+parametric error estimate is 1.1227e+00  vs  2.8530e+00 (parametric indicator)
+overall estimate from indicators is 6.0714e+00
+   overall direct error estimate is 1.7256e+00
+
+
+Iteration 9 
+   spatial error indicator is 3.2184e+00 
+parametric error indicator is 2.8530e+00 
+Spatial refinement...
+original number of elements is 2234
+     new number of elements is 2422
+
+redundant sparse grid solutions ..
+   spatial error estimate is 4.0535e-01  vs  2.6460e+00 (spatial indicator)
+parametric error estimate is 1.1808e+00  vs  3.0582e+00 (parametric indicator)
+overall estimate from indicators is 5.7042e+00
+   overall direct error estimate is 1.5862e+00
+
+
+Iteration 10 
+   spatial error indicator is 2.6460e+00 
+parametric error indicator is 3.0582e+00 
+Parametric refinement ... new indices added 
+     5     1
+
+   spatial error estimate is 4.4962e-01  vs  3.6492e+00 (spatial indicator)
+parametric error estimate is 9.5817e-01  vs  3.1348e+00 (parametric indicator)
+overall estimate from indicators is 6.7840e+00
+   overall direct error estimate is 1.4078e+00
+
+
+Iteration 11 
+   spatial error indicator is 3.6492e+00 
+parametric error indicator is 3.1348e+00 
+Spatial refinement...
+original number of elements is 2422
+     new number of elements is 2750
+
+   spatial error estimate is 4.3514e-01  vs  2.8455e+00 (spatial indicator)
+parametric error estimate is 9.8670e-01  vs  3.2922e+00 (parametric indicator)
+overall estimate from indicators is 6.1377e+00
+   overall direct error estimate is 1.4218e+00
+
+
+Iteration 12 
+   spatial error indicator is 2.8455e+00 
+parametric error indicator is 3.2922e+00 
+Parametric refinement ... new indices added 
+     5     2
+
+redundant sparse grid solutions ..
+   spatial error estimate is 4.0055e-01  vs  2.8915e+00 (spatial indicator)
+parametric error estimate is 8.0281e-01  vs  1.3883e+00 (parametric indicator)
+overall estimate from indicators is 4.2798e+00
+   overall direct error estimate is 1.2034e+00
+
+
+Iteration 13 
+   spatial error indicator is 2.8915e+00 
+parametric error indicator is 1.3883e+00 
+Spatial refinement...
+original number of elements is 2750
+     new number of elements is 3398
+
+redundant sparse grid solutions ..
+   spatial error estimate is 3.7559e-01  vs  2.5125e+00 (spatial indicator)
+parametric error estimate is 8.1120e-01  vs  1.4127e+00 (parametric indicator)
+overall estimate from indicators is 3.9252e+00
+   overall direct error estimate is 1.1868e+00
+
+
+Iteration 14 
+   spatial error indicator is 2.5125e+00 
+parametric error indicator is 1.4127e+00 
+Spatial refinement...
+original number of elements is 3398
+     new number of elements is 4242
+
+redundant sparse grid solutions ..
+   spatial error estimate is 2.8143e-01  vs  2.1453e+00 (spatial indicator)
+parametric error estimate is 8.2447e-01  vs  1.4447e+00 (parametric indicator)
+overall estimate from indicators is 3.5900e+00
+   overall direct error estimate is 1.1059e+00
+
+
+Iteration 15 
+   spatial error indicator is 2.1453e+00 
+parametric error indicator is 1.4447e+00 
+Spatial refinement...
+original number of elements is 4242
+     new number of elements is 5186
+
+redundant sparse grid solutions ..
+   spatial error estimate is 2.2532e-01  vs  1.6407e+00 (spatial indicator)
+parametric error estimate is 8.2850e-01  vs  1.4625e+00 (parametric indicator)
+overall estimate from indicators is 3.1032e+00
+   overall direct error estimate is 1.0538e+00
+
+
+Iteration 16 
+   spatial error indicator is 1.6407e+00 
+parametric error indicator is 1.4625e+00 
+Spatial refinement...
+original number of elements is 5186
+     new number of elements is 6730
+
+redundant sparse grid solutions ..
+   spatial error estimate is 1.9922e-01  vs  1.3593e+00 (spatial indicator)
+parametric error estimate is 8.3333e-01  vs  1.4779e+00 (parametric indicator)
+overall estimate from indicators is 2.8372e+00
+   overall direct error estimate is 1.0325e+00
+
+
+Iteration 17 
+   spatial error indicator is 1.3593e+00 
+parametric error indicator is 1.4779e+00 
+Parametric refinement ... new indices added 
+     1     3
+
+redundant sparse grid solutions ..
+   spatial error estimate is 2.2132e-01  vs  1.7321e+00 (spatial indicator)
+parametric error estimate is 6.3429e-01  vs  2.0710e+00 (parametric indicator)
+overall estimate from indicators is 3.8030e+00
+   overall direct error estimate is 8.5561e-01
+
+
+Iteration 18 
+   spatial error indicator is 1.7321e+00 
+parametric error indicator is 2.0710e+00 
+Parametric refinement ... new indices added 
+     2     3
+
+redundant sparse grid solutions ..
+   spatial error estimate is 2.1650e-01  vs  1.9127e+00 (spatial indicator)
+parametric error estimate is 7.4022e-01  vs  2.1949e+00 (parametric indicator)
+overall estimate from indicators is 4.1076e+00
+   overall direct error estimate is 9.5672e-01
+
+
+Iteration 19 
+   spatial error indicator is 1.9127e+00 
+parametric error indicator is 2.1949e+00 
+Parametric refinement ... new indices added 
+     3     3
+
+redundant sparse grid solutions ..
+   spatial error estimate is 2.1594e-01  vs  1.9733e+00 (spatial indicator)
+parametric error estimate is 7.3397e-01  vs  2.4305e+00 (parametric indicator)
+overall estimate from indicators is 4.4037e+00
+   overall direct error estimate is 9.4992e-01
+
+
+Iteration 20 
+   spatial error indicator is 1.9733e+00 
+parametric error indicator is 2.4305e+00 
+Parametric refinement ... new indices added 
+     4     3
+
+   spatial error estimate is 2.1349e-01  vs  2.0287e+00 (spatial indicator)
+parametric error estimate is 4.7030e-01  vs  1.8850e+00 (parametric indicator)
+overall estimate from indicators is 3.9138e+00
+   overall direct error estimate is 6.8380e-01
+
+
+Iteration 21 
+   spatial error indicator is 2.0287e+00 
+parametric error indicator is 1.8850e+00 
+Spatial refinement...
+original number of elements is 6730
+     new number of elements is 10236
+
+   spatial error estimate is 1.7975e-01  vs  1.8179e+00 (spatial indicator)
+parametric error estimate is 4.7392e-01  vs  1.9007e+00 (parametric indicator)
+overall estimate from indicators is 3.7186e+00
+   overall direct error estimate is 6.5366e-01
+
+
+Iteration 22 
+   spatial error indicator is 1.8179e+00 
+parametric error indicator is 1.9007e+00 
+Parametric refinement ... new indices added 
+     5     3
+
+redundant sparse grid solutions ..
+   spatial error estimate is 1.8275e-01  vs  1.6717e+00 (spatial indicator)
+parametric error estimate is 3.1872e-01  vs  8.0670e-01 (parametric indicator)
+overall estimate from indicators is 2.4784e+00
+   overall direct error estimate is 5.0147e-01
+
+
+Iteration 23 
+   spatial error indicator is 1.6717e+00 
+parametric error indicator is 8.0670e-01 
+Spatial refinement...
+original number of elements is 10236
+     new number of elements is 14062
+
+redundant sparse grid solutions ..
+   spatial error estimate is 1.2565e-01  vs  1.3083e+00 (spatial indicator)
+parametric error estimate is 3.2002e-01  vs  8.1233e-01 (parametric indicator)
+overall estimate from indicators is 2.1206e+00
+   overall direct error estimate is 4.4566e-01
+
+
+Iteration 24 
+   spatial error indicator is 1.3083e+00 
+parametric error indicator is 8.1233e-01 
+Spatial refinement...
+original number of elements is 14062
+     new number of elements is 19158
+
+redundant sparse grid solutions ..
+   spatial error estimate is 1.0988e-01  vs  9.7105e-01 (spatial indicator)
+parametric error estimate is 3.2056e-01  vs  8.1587e-01 (parametric indicator)
+overall estimate from indicators is 1.7869e+00
+   overall direct error estimate is 4.3043e-01
+
+
+Iteration 25 
+   spatial error indicator is 9.7105e-01 
+parametric error indicator is 8.1587e-01 
+Spatial refinement...
+original number of elements is 19158
+     new number of elements is 32092
+
+redundant sparse grid solutions ..
+   spatial error estimate is 9.6219e-02  vs  8.5928e-01 (spatial indicator)
+parametric error estimate is 3.2110e-01  vs  8.1781e-01 (parametric indicator)
+overall estimate from indicators is 1.6771e+00
+   overall direct error estimate is 4.1732e-01
+
+
+Iteration 26 
+   spatial error indicator is 8.5928e-01 
+parametric error indicator is 8.1781e-01 
+Spatial refinement...
+original number of elements is 32092
+     new number of elements is 48456
+
+redundant sparse grid solutions ..
+   spatial error estimate is 6.8960e-02  vs  7.4164e-01 (spatial indicator)
+parametric error estimate is 3.2147e-01  vs  8.1925e-01 (parametric indicator)
+overall estimate from indicators is 1.5609e+00
+   overall direct error estimate is 3.9043e-01
+
+
+Iteration 27 
+   spatial error indicator is 7.4164e-01 
+parametric error indicator is 8.1925e-01 
+Parametric refinement ... new indices added 
+     1     4
+
+redundant sparse grid solutions ..
+   spatial error estimate is 7.0252e-02  vs  9.4569e-01 (spatial indicator)
+parametric error estimate is 2.4511e-01  vs  8.9646e-01 (parametric indicator)
+overall estimate from indicators is 1.8422e+00
+   overall direct error estimate is 3.1536e-01
+
+
+Iteration 28 
+   spatial error indicator is 9.4569e-01 
+parametric error indicator is 8.9646e-01 
+Spatial refinement...
+original number of elements is 48456
+     new number of elements is 67622
+
+redundant sparse grid solutions ..
+   spatial error estimate is 6.0200e-02  vs  6.7215e-01 (spatial indicator)
+parametric error estimate is 2.4531e-01  vs  8.9762e-01 (parametric indicator)
+overall estimate from indicators is 1.5698e+00
+   overall direct error estimate is 3.0551e-01
+
+
+Iteration 29 
+   spatial error indicator is 6.7215e-01 
+parametric error indicator is 8.9762e-01 
+Parametric refinement ... new indices added 
+     2     4
+
+redundant sparse grid solutions ..
+   spatial error estimate is 6.0214e-02  vs  7.6415e-01 (spatial indicator)
+parametric error estimate is 2.6591e-01  vs  9.1973e-01 (parametric indicator)
+overall estimate from indicators is 1.6839e+00
+   overall direct error estimate is 3.2612e-01
+
+
+Iteration 30 
+   spatial error indicator is 7.6415e-01 
+parametric error indicator is 9.1973e-01 
+Parametric refinement ... new indices added 
+     3     4
+
+redundant sparse grid solutions ..
+   spatial error estimate is 6.0230e-02  vs  7.8268e-01 (spatial indicator)
+parametric error estimate is 2.5593e-01  vs  9.9777e-01 (parametric indicator)
+overall estimate from indicators is 1.7804e+00
+   overall direct error estimate is 3.1616e-01
+
+
+Iteration 31 
+   spatial error indicator is 7.8268e-01 
+parametric error indicator is 9.9777e-01 
+Parametric refinement ... new indices added 
+     4     4
+
+   spatial error estimate is 6.0366e-02  vs  7.9823e-01 (spatial indicator)
+parametric error estimate is 1.5518e-01  vs  7.7120e-01 (parametric indicator)
+overall estimate from indicators is 1.5694e+00
+   overall direct error estimate is 2.1555e-01
+
+
+Iteration 32 
+   spatial error indicator is 7.9823e-01 
+parametric error indicator is 7.7120e-01 
+Spatial refinement...
+original number of elements is 67622
+     new number of elements is 117298
+
+   spatial error estimate is 5.0981e-02  vs  6.7412e-01 (spatial indicator)
+parametric error estimate is 1.5534e-01  vs  7.7196e-01 (parametric indicator)
+overall estimate from indicators is 1.4461e+00
+   overall direct error estimate is 2.0633e-01
+
+
+Iteration 33 
+   spatial error indicator is 6.7412e-01 
+parametric error indicator is 7.7196e-01 
+Parametric refinement ... new indices added 
+     5     4
+
+redundant sparse grid solutions ..
+   spatial error estimate is 5.1114e-02  vs  6.1717e-01 (spatial indicator)
+parametric error estimate is 1.0274e-01  vs  3.4731e-01 (parametric indicator)
+overall estimate from indicators is 9.6448e-01
+   overall direct error estimate is 1.5386e-01
+
+
+Iteration 34 
+   spatial error indicator is 6.1717e-01 
+parametric error indicator is 3.4731e-01 
+Spatial refinement...
+original number of elements is 117298
+     new number of elements is 184146
+
+redundant sparse grid solutions ..
+   spatial error estimate is 3.7088e-02  vs  5.3276e-01 (spatial indicator)
+parametric error estimate is 1.0283e-01  vs  3.4758e-01 (parametric indicator)
+overall estimate from indicators is 8.8034e-01
+   overall direct error estimate is 1.3991e-01
+
+
+Iteration 35 
+   spatial error indicator is 5.3276e-01 
+parametric error indicator is 3.4758e-01 
+Spatial refinement...
+original number of elements is 184146
+     new number of elements is 290722
+
+redundant sparse grid solutions ..
+   spatial error estimate is 3.0208e-02  vs  3.8783e-01 (spatial indicator)
+parametric error estimate is 1.0292e-01  vs  3.4789e-01 (parametric indicator)
+overall estimate from indicators is 7.3571e-01
+   overall direct error estimate is 1.3313e-01
+
+
+Iteration 36 
+   spatial error indicator is 3.8783e-01 
+parametric error indicator is 3.4789e-01 
+Spatial refinement...
+original number of elements is 290722
+     new number of elements is 508292
+
+redundant sparse grid solutions ..
+   spatial error estimate is 2.4943e-02  vs  3.1009e-01 (spatial indicator)
+parametric error estimate is 1.0295e-01  vs  3.4796e-01 (parametric indicator)
+overall estimate from indicators is 6.5805e-01
+   overall direct error estimate is 1.2789e-01
+
+
+Iteration 37 
+   spatial error indicator is 3.1009e-01 
+parametric error indicator is 3.4796e-01 
+Parametric refinement ... new indices added 
+     6     1
+
+redundant sparse grid solutions ..
+   spatial error estimate is 2.5068e-02  vs  4.1450e-01 (spatial indicator)
+parametric error estimate is 6.4661e-02  vs  3.2352e-01 (parametric indicator)
+overall estimate from indicators is 7.3802e-01
+   overall direct error estimate is 8.9729e-02
+
+Final sparse grid
+     1     1
+     1     2
+     1     3
+     1     4
+     1     5
+     1     6
+     1     7
+     1     8
+     1     9
+     2     1
+     2     2
+     2     3
+     2     4
+     2     5
+     2     6
+     2     7
+     2     8
+     2     9
+     3     1
+     3     2
+     3     3
+     3     4
+     3     5
+     3     6
+     3     7
+     3     8
+     3     9
+     4     1
+     4     2
+     4     3
+     4     4
+     4     5
+     4     6
+     4     7
+     4     8
+     4     9
+     5     1
+     5     2
+     5     3
+     5     4
+     5     5
+     5     6
+     5     7
+     5     8
+     5     9
+     6     1
+     6     2
+     6     3
+     6     4
+     6     5
+     6     6
+     6     7
+     6     8
+     6     9
+     7     1
+     7     2
+     7     3
+     7     4
+     7     5
+     7     6
+     7     7
+     7     8
+     7     9
+     8     1
+     8     2
+     8     3
+     8     4
+     8     5
+     8     6
+     8     7
+     8     8
+     8     9
+     9     1
+     9     2
+     9     3
+     9     4
+     9     5
+     9     6
+     9     7
+     9     8
+     9     9
+    10     1
+    10     2
+    10     3
+    10     4
+    10     5
+    10     6
+    10     7
+    10     8
+    10     9
+    11     1
+    11     2
+    11     3
+    11     4
+    11     5
+    11     6
+    11     7
+    11     8
+    11     9
+    12     1
+    12     2
+    12     3
+    12     4
+    12     5
+    12     6
+    12     7
+    12     8
+    12     9
+    13     1
+    13     2
+    13     3
+    13     4
+    13     5
+    13     6
+    13     7
+    13     8
+    13     9
+    14     1
+    14     2
+    14     3
+    14     4
+    14     5
+    14     6
+    14     7
+    14     8
+    14     9
+    15     1
+    15     2
+    15     3
+    15     4
+    15     5
+    15     6
+    15     7
+    15     8
+    15     9
+    16     1
+    16     2
+    16     3
+    16     4
+    16     5
+    16     6
+    16     7
+    16     8
+    16     9
+    17     1
+    17     2
+    17     3
+    17     4
+    17     5
+    17     6
+    17     7
+    17     8
+    17     9
+    18     1
+    19     1
+    20     1
+    21     1
+    22     1
+    23     1
+    24     1
+    25     1
+    26     1
+    27     1
+    28     1
+    29     1
+    30     1
+    31     1
+    32     1
+    33     1
+
+Tolerance was reached in 37 iterations
+    after 20 parametric refinements
+              Mean maximum  0.144041
+          Variance maximum  0.060297
+Standard Deviation maximum  0.245553
+                      QoI is  0.015092585
+          discrete energy is  2.077866374
+
+Total elapsed time: 18644.71 sec
+
+To compute a reference solution run the script referenceSC
+
