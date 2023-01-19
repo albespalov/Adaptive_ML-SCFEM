@@ -44,7 +44,7 @@ choose type of collocation nodes
      2.  CC
 default is CC nodes : 
 Threshold parameter for marking indices (default 0.3) : 
-set the error tolerance (default is 6e-3) : 
+set the error tolerance (default is 6e-3) : 6.2e-3
 set the number of adaptive steps (default is 40) : 
 Grid parameter: 2 for underlying 8x3 grid (default is 3 for 8x12) : 
 Grid stretch factor (>=1) (default is 1) : 
@@ -507,19 +507,6 @@ parametric error estimate is 4.0119e-03  vs  1.6341e-02 (parametric indicator)
 overall estimate from indicators is 3.0459e-02
    overall direct error estimate is 6.1687e-03
 
-
-Iteration 38 
-   spatial error indicator is 1.4119e-02 
-parametric error indicator is 1.6341e-02 
-Parametric refinement ... new indices added 
-     2     1     2     2
-
-redundant sparse grid solutions ..
-   spatial error estimate is 2.1616e-03  vs  1.4941e-02 (spatial indicator)
-parametric error estimate is 2.6571e-03  vs  1.0470e-02 (parametric indicator)
-overall estimate from indicators is 2.5411e-02
-   overall direct error estimate is 4.8187e-03
-
 Final sparse grid
      1     1     1     1
      1     1     1     2
@@ -544,11 +531,7 @@ Final sparse grid
      2     1     1     2
      2     1     1     3
      2     1     2     1
-     2     1     2     2
-     2     1     2     3
      2     1     3     1
-     2     1     3     2
-     2     1     3     3
      2     2     1     1
      2     2     1     2
      2     2     1     3
@@ -563,11 +546,7 @@ Final sparse grid
      3     1     1     2
      3     1     1     3
      3     1     2     1
-     3     1     2     2
-     3     1     2     3
      3     1     3     1
-     3     1     3     2
-     3     1     3     3
      3     2     1     1
      3     2     1     2
      3     2     1     3
@@ -581,11 +560,11 @@ Final sparse grid
      4     1     1     1
      5     1     1     1
 
-Tolerance was reached in 38 iterations
-    after 11 parametric refinements
+Tolerance was reached in 37 iterations
+    after 10 parametric refinements
               Mean maximum  0.063237
-          Variance maximum  0.001354
-Standard Deviation maximum  0.036803
+          Variance maximum  0.001355
+Standard Deviation maximum  0.036807
 
-Total elapsed time: 5813.35 sec
+Total elapsed time: 4174.19 sec
 
