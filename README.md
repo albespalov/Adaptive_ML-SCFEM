@@ -19,7 +19,7 @@ The code in this repository is associated with the following two papers:
     A. Bespalov and D. Silvester,
     Error estimation and adaptivity for stochastic collocation finite elements.
     Part II: multilevel approximation.
-    <i>SIAM Journal on Scientific Computing</i> (to appear).<br>
+    <i>SIAM Journal on Scientific Computing</i>, Vol. 45 (2023), Issue 2, pp. A781-A797.<br>
     Preprint<br>
     https://arxiv.org/abs/2202.08902
   </li>
