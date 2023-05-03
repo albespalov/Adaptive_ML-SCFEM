@@ -20,6 +20,7 @@ The code in this repository is associated with the following two papers:
     Error estimation and adaptivity for stochastic collocation finite elements.
     Part II: multilevel approximation.
     <i>SIAM Journal on Scientific Computing</i>, Vol. 45 (2023), Issue 2, pp. A781-A797.<br>
+    https://doi.org/10.1137/22M1479361<br>
     Preprint<br>
     https://arxiv.org/abs/2202.08902
   </li>
